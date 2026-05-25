@@ -1,8 +1,11 @@
 {
-  "name": "succeed",
+  "name": "EleiteGlobalMarket",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "A modern and visually stunning website for Eleite Global Market, a leading global trading company. The website features a sleek and intuitive design, showcasing the company's services, products, and global reach. With a focus on user experience, the site incorporates interactive elements, smooth animations, and responsive layouts to engage visitors and provide a seamless browsing experience. The homepage highlights the company's expertise in international trade, while dedicated sections offer insights into their diverse product offerings and commitment to customer satisfaction. Overall, the Eleite Global Market website serves as a powerful online platform to connect with clients and showcase the company's global trading capabilities.",
+  "homepage": "https://ranjan-dev26.github.io/EleiteGlobalMarket/",
+  
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -14,6 +17,11 @@
     "typescript": "~6.0.2",
     "vite": "^8.0.12"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ranjan-dev26/EleiteGlobalMarket.git"
+  },
+
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@react-three/drei": "^10.7.7",
