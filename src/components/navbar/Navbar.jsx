@@ -286,8 +286,7 @@ export default function Navbar() {
             {/* Right Side */}
             <div className="flex items-center gap-4 z-50">
               
-              <Link to="/login">
-              {/* "https://crm.tradecapitalmarket.com/login" */}
+              <Link to="https://crm.tradecapitalmarket.com/login">
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
@@ -298,8 +297,7 @@ export default function Navbar() {
                 </motion.button>
               </Link>
 
-              <a href="/signup">
-                {/* "https://crm.tradecapitalmarket.com/register" */}
+              <a href="https://crm.tradecapitalmarket.com/register">
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
